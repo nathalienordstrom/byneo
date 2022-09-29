@@ -100,15 +100,15 @@ height: 200px;
         }
         .box-one-text h1 {
             margin-bottom: 10px;
-            padding: 10px 50px 0 50px;
-            font-size: 18px;
+            padding: 10px 30px 0 30px;
+            font-size: 15px;
         }
         .box-one-text h2 {
             padding: 0px 20px 0 20px;
             font-size: 13px;
         }
         .box-one-text h3 {
-        padding: 0 50px 0 50px;
+        padding: 0 20px 10px 20px;
         font-size: 11px;
         }
 
