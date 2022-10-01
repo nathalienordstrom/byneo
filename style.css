@@ -155,27 +155,41 @@ img.header-img {
 }
 
 .card {
-    width: 70%;
+    width: 100%;
     color: white;
-    text-align: center;
-    margin: 40px;
-    font-family: 'Poiret One', cursive;
+    margin: 40px 0 40px 0;
     font-weight: lighter;
 }
 
 .card h4 {
     font-size: 30px;
-    margin: 20px 0 0 0;
+    margin: 20px 0 40px 0;
+    font-family: 'Poiret One', cursive;
+    text-align: center;
+
 }
 
 .card p {
-    font-size: 18px;
+    font-size: 15px;
     margin: 20px 0 0 0;
     color: white;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+
 
 }
 
-.card img {}
+.p-span {
+    font-weight: bolder;
+    font-size: 17px;
+text-align: left;
+font-family: 'Poiret One', cursive;
+
+}
+
+.card img {
+    height: 400px;
+}
 
 .card:hover {
     /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); */
@@ -260,6 +274,7 @@ footer {
     }
     .text-block {
         padding-bottom: 10px;
+        top:0;
     }
     .text-block p {
         padding-left: 50px;
@@ -273,9 +288,17 @@ footer {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 0px;
+        justify-items: center;
 
     }
 
+    .card{
+        width: 80%;
+        margin: 40px 0 40px 0;
+    }
+    .card img {
+        height: 500px;
+    }
     .card h4 {
         font-family: 'Poiret One', cursive;
         font-weight: lighter;
@@ -328,7 +351,13 @@ footer {
         font-size: 40px;
         font-family: 'Poiret One', cursive;
     }
-    
+    .card{
+        width: 100%;
+        margin: 40px 0 40px 0;
+    }
+    .card img {
+        height: 300px;
+    }
     .text-block p {
         padding-left: 50px;
         padding-right: 50px;
