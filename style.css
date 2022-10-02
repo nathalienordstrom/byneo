@@ -92,7 +92,7 @@ img.header-img {
 
 .text-block {
     position: absolute;
-    top:20%;
+    top: 20%;
     width: 100%;
     background: rgba(0, 0, 0, .5);
     text-align: center;
@@ -103,7 +103,7 @@ img.header-img {
     color: white;
     padding-left: 20px;
     padding-right: 20px;
-    margin:20px 0 0 0;
+    margin: 20px 0 0 0;
     font-size: 40px;
     font-family: 'Poiret One', cursive;
 }
@@ -118,7 +118,7 @@ img.header-img {
 }
 
 .button {
-    background-color: #2D3A4E; 
+    background-color: #2D3A4E;
     border-radius: 8%;
     color: white;
     padding: 16px 32px;
@@ -130,20 +130,46 @@ img.header-img {
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
-  }
-  
-  .button1 {
-    background-color: #2D3A4E; 
-    color: white; 
+}
+
+.button1 {
+    background-color: #2D3A4E;
+    color: white;
     border: 2px solid #2D3A4E;
-  }
-  
-  .button1:hover {
+}
+
+.button1:hover {
     background-color: #555F6F;
     color: white;
     border: 2px solid #555F6F;
-  }
+}
 
+.button2 {
+    background-color: #2D3A4E;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Poiret One', cursive;
+    font-size: 16px;
+    margin-top:70px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button2 {
+    background-color: #555F6F;
+    color: white;
+    border: 2px solid #555F6F;
+}
+
+.button2:hover {
+    background-color: white;
+    color: #2D3A4E;
+    border: 2px solid #555F6F;
+}
 
 
 .box-three {
@@ -159,32 +185,36 @@ img.header-img {
     color: white;
     margin: 40px 0 40px 0;
     font-weight: lighter;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    height: 900px;
 }
 
 .card h4 {
     font-size: 30px;
-    margin: 20px 0 40px 0;
+    margin: 20px 0 20px 0;
     font-family: 'Poiret One', cursive;
     text-align: center;
-
+    height:10%;
 }
 
 .card p {
     font-size: 15px;
-    margin: 20px 0 0 0;
+    margin: 10px 0 0 0;
     color: white;
     font-family: 'Quicksand', sans-serif;
     text-align: center;
-
-
+    height:40%;
 }
 
 .p-span {
     font-weight: bolder;
-    font-size: 17px;
-text-align: left;
-font-family: 'Poiret One', cursive;
-
+    font-size: 18px;
+    text-align: left;
+    font-family: 'Poiret One', cursive;
+    height:60%;
 }
 
 .card img {
@@ -197,6 +227,7 @@ font-family: 'Poiret One', cursive;
 
 .container {
     padding: 2px 16px;
+
 }
 
 footer {
@@ -268,18 +299,21 @@ footer {
         padding: 0 20px 10px 20px;
         font-size: 11px;
     }
+
     .text-block h4 {
-        margin:20px 0 0 0;
+        margin: 20px 0 0 0;
         font-size: 30px;
     }
+
     .text-block {
         padding-bottom: 10px;
-        top:0;
+        top: 0;
     }
+
     .text-block p {
         padding-left: 50px;
         padding-right: 50px;
-        font-size:15px;
+        font-size: 15px;
         padding-bottom: 0px;
     }
 
@@ -292,13 +326,15 @@ footer {
 
     }
 
-    .card{
+    .card {
         width: 80%;
         margin: 40px 0 40px 0;
     }
+
     .card img {
         height: 500px;
     }
+
     .card h4 {
         font-family: 'Poiret One', cursive;
         font-weight: lighter;
@@ -343,27 +379,32 @@ footer {
         padding: 0 50px 0 50px;
         font-size: 18px;
     }
+
     .text-block h4 {
         color: white;
         padding-left: 20px;
         padding-right: 20px;
-        margin:20px 0 0 0;
+        margin: 20px 0 0 0;
         font-size: 40px;
         font-family: 'Poiret One', cursive;
     }
-    .card{
+
+    .card {
         width: 100%;
         margin: 40px 0 40px 0;
     }
+
     .card img {
         height: 300px;
     }
+
     .text-block p {
         padding-left: 50px;
         padding-right: 50px;
         font-size: 20px;
-    
+
     }
+
     .box-three {
         margin-top: 40px;
         display: grid;
