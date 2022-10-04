@@ -127,9 +127,9 @@ img.header-img {
     padding-bottom: 50px;
 }
 
-i {
-    width: 20%;
+.fa-chevron-down {
     color: white;
+    font-size: 40px;
 }
 
 .text-block h4 {
@@ -178,30 +178,28 @@ i {
 }
 
 .button2 {
-    background-color: #2D3A4E;
-    color: white;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-family: 'Poiret One', cursive;
     font-size: 16px;
-    margin-top:70px;
+    margin-top: 70px;
     transition-duration: 0.4s;
     cursor: pointer;
-    width: 100%;
-}
-
-.button2 {
+    width: 30%;
+    border-radius: 8%;
     background-color: #555F6F;
     color: white;
     border: 2px solid #555F6F;
+    border-radius: 8px;
 }
 
 .button2:hover {
-    background-color: white;
-    color: #2D3A4E;
+    background-color: #2D3A4E;
+    color: white;
     border: 2px solid #555F6F;
+    border-radius: 8px;
 }
 
 
@@ -220,8 +218,7 @@ i {
     font-weight: lighter;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items:center ;
+
     height: 900px;
 }
 
@@ -230,7 +227,7 @@ i {
     margin: 20px 0 20px 0;
     font-family: 'Poiret One', cursive;
     text-align: center;
-    height:10%;
+    height: 10%;
 }
 
 .card p {
@@ -239,7 +236,7 @@ i {
     color: white;
     font-family: 'Quicksand', sans-serif;
     text-align: center;
-    height:40%;
+    height: 40%;
 }
 
 .p-span {
@@ -247,7 +244,7 @@ i {
     font-size: 18px;
     text-align: left;
     font-family: 'Poiret One', cursive;
-    height:60%;
+    height: 60%;
 }
 
 .card img {
@@ -263,6 +260,11 @@ i {
 
 }
 
+.box-four img {
+    width: 100%;
+    margin-top: 50px;
+}
+
 footer {
     padding: 50px;
     background-color: white;
@@ -273,12 +275,20 @@ footer {
 }
 
 .footer-box {
-    border: solid red 1px;
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .footer-logo {
-    width: 50%;
+    width: 70%;
+}
+
+.footer-box i {
+    color: #2D3A4E;
+    font-size: 50px;
 }
 
 @media (min-width: 250px) and (max-width:700px) {
@@ -333,6 +343,11 @@ footer {
         font-size: 11px;
     }
 
+    .fa-chevron-down {
+        color: white;
+        font-size: 20px;
+    }
+
     .button3 {
         background-color: #2D3A4E;
         border-radius: 8%;
@@ -347,13 +362,13 @@ footer {
         transition-duration: 0.4s;
         cursor: pointer;
     }
-    
+
     .button3 {
         background-color: #2D3A4E;
         color: white;
         border: 2px solid #2D3A4E;
     }
-    
+
     .button3:hover {
         background-color: #555F6F;
         color: white;
@@ -364,6 +379,7 @@ footer {
         margin: 20px 0 0 0;
         font-size: 20px;
     }
+
     .button {
         padding: 5px 10px;
         font-size: 10px;
@@ -391,8 +407,9 @@ footer {
     }
 
     .card {
-        width: 80%;
+        width: 90%;
         margin: 10px 0 10px 0;
+        height: 800px;
     }
 
     .card img {
@@ -406,14 +423,60 @@ footer {
         margin: 20px 0 0 0;
     }
 
+    .card p {
+        font-size: 15px;
+        margin: 10px 0 0 0;
+        color: white;
+        font-family: 'Quicksand', sans-serif;
+        text-align: center;
+        height: 40%;
+    }
+
+    .button2 {
+        background-color: #555F6F;
+        color: white;
+        border: 2px solid #555F6F;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-family: 'Poiret One', cursive;
+        font-size: 16px;
+        margin-top: 50px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        width: 10%;
+    }
+
+
+    .footer-logo {
+        width: 70%;
+    }
+
     footer {
         padding: 20px;
         margin-top: 50px;
-
+        background-color: white;
+        margin-top: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
     }
+    
+    .footer-box {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
 
-    .footer-logo {
-        width: 60%;
+    
+    .footer-box i {
+        color: #2D3A4E;
+        font-size: 20px;
+        margin: 0 10px 0 10px;
     }
 
 }
@@ -448,6 +511,7 @@ footer {
         margin: 0 0 10px 0;
 
     }
+
     .text-block h4 {
         color: white;
         padding-left: 20px;
