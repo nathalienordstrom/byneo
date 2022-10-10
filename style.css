@@ -112,6 +112,45 @@ img.header-img {
     border: 2px solid #555F6F;
 }
 
+.box-news {
+    border:solid white 20px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    font-family: 'Poiret One', cursive;
+
+}
+
+.news-img {
+        width: 50%;
+}
+
+.textblock-news {
+    width: 100%; 
+    background: white;
+    text-align: center;
+    padding-top: 10px;
+    color: #2D3A4E;
+}
+.textblock-news h2 {
+font-size: 40px;
+}
+.textblock-news h4 {
+font-size: 23px;
+padding: 0 20px 0 20px;
+font-weight: bold;
+}
+.textblock-news h5 {
+    text-align: left;
+    padding: 0 40px 0 40px;
+    font-size: 17px;
+}
+
+.textblock-news h5 span {
+    font-size:20px;
+    text-decoration: underline;
+}
+
 
 .box-two {
     margin-top: 50px;
@@ -364,6 +403,44 @@ footer {
     .fa-chevron-down {
         color: white;
         font-size: 20px;
+    }
+
+
+    .box-news {
+        flex-direction: column;
+        margin-top: 40px;
+    }
+    
+    .news-img {
+            width: 100%;
+            height: auto;
+    }
+    
+    .textblock-news {
+        width: 100%;
+        background: white;
+        text-align: center;
+        padding-top: 10px;
+        color: #2D3A4E;
+    }
+    .textblock-news h2 {
+    font-size: 40px;
+    margin: 0;
+    }
+    .textblock-news h4 {
+    font-size: 20px;
+    padding: 0 20px 0 20px;
+    font-weight: bold;
+    }
+    .textblock-news h5 {
+        text-align: left;
+        padding: 0 0 0 40px;
+        font-size: 15px;
+    }
+    
+    .textblock-news h5 span {
+        font-size:18px;
+        text-decoration: underline;
     }
 
     .button3 {
